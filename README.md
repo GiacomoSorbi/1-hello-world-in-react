@@ -41,12 +41,12 @@ ReactDOM.render(
 //good again
 ReactDOM.render(
   <div>
-	<h3>
-      Hello, world!
-	</h3>
-	<p>
-	  I am Johnny
-	</p>
+    <h3>
+        Hello, world!
+    </h3>
+    <p>
+      I am Johnny
+    </p>
   </div>,
   document.getElementById('app')
 );
