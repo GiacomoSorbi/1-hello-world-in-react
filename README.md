@@ -14,7 +14,7 @@ Feel free to use whatever HMTL elements you wish to use in your 'render()' metho
 
 Examples:
 
-```javascript
+```
 //good
 ReactDOM.render(
   <div>
@@ -24,7 +24,7 @@ ReactDOM.render(
 );
 ```
 
-```javascript
+```
 //bad
 ReactDOM.render(
   <h3>
@@ -37,7 +37,7 @@ ReactDOM.render(
 );
 ```
 
-```javascript
+```
 //good again
 ReactDOM.render(
   <div>
