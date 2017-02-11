@@ -6,7 +6,7 @@ React Introduction
 
 Clone this repository and use `npm start` in your terminal to make it start
 
-##
+## Activities and Objectives
 
 You are tasked to simply create a typical "hello world" app in React.js.
 
