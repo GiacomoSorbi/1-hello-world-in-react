@@ -8,9 +8,11 @@ Clone this repository and use `npm start` in your terminal to make it start
 
 ## Activities and Objectives
 
-You are tasked to simply create a typical "hello world" app in React.js.
+You are tasked to simply create a typical base UserInfo component in React.js.
 
-Feel free to use whatever HMTL elements you wish to use in your 'render()' method, just remember that if you use multiple ones, you need to wrap them all, as you can return only a single ancestor element (albeit with as many child element as you want).
+Feel free to use whatever props you wish, just be sure to add at least 'firstName', 'lastName' and a 'profileImg' picture (hosted externally might simplify) in your 'render()' method.
+
+Remember that if you use multiple elements, you need to wrap them all in the 'render()' method, as you can return only a single ancestor element (albeit with as many child element as you want).
 
 Examples:
 
