@@ -23,9 +23,9 @@ Examples:
 class App extends Component {
   render() {
     return (
-    <div>
-      Hello, world!
-    </div>
+      <div>
+        Hello, world!
+      </div>
     );
   }
 }
@@ -36,12 +36,12 @@ class App extends Component {
 class App extends Component {
   render() {
     return (
-    <h3>
-      Hello, world!
-    </h3>
-    <p>
-      I am Johnny
-    </p>
+      <h3>
+        Hello, world!
+      </h3>
+      <p>
+        I am Johnny
+      </p>
     );
   }
 }
@@ -52,14 +52,14 @@ class App extends Component {
 class App extends Component {
   render() {
     return (
-    <div>
-      <h3>
-        Hello, world!
-      </h3>
-      <p>
-        I am Johnny
-      </p>
-    </div>
+      <div>
+        <h3>
+          Hello, world!
+        </h3>
+        <p>
+          I am Johnny
+        </p>
+      </div>
     );
   }
 }
