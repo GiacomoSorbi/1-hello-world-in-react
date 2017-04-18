@@ -16,40 +16,51 @@ Remember that if you use multiple elements, you need to wrap them all in the 're
 
 Examples:
 
+
+
 ```
 //good
-ReactDOM.render(
-  <div>
-    Hello, world!
-  </div>,
-  document.getElementById('app')
-);
+class App extends Component {
+  render() {
+    return (
+    <div>
+      Hello, world!
+    </div>
+    );
+  }
+}
 ```
 
 ```
 //bad
-ReactDOM.render(
-  <h3>
-    Hello, world!
-  </h3>
-  <p>
-    I am Johnny
-  </p>,
-  document.getElementById('app')
-);
-```
-
-```
-//good again
-ReactDOM.render(
-  <div>
+class App extends Component {
+  render() {
+    return (
     <h3>
-        Hello, world!
+      Hello, world!
     </h3>
     <p>
       I am Johnny
     </p>
-  </div>,
-  document.getElementById('app')
-);
+    );
+  }
+}
+```
+
+```
+//good again
+class App extends Component {
+  render() {
+    return (
+    <div>
+      <h3>
+        Hello, world!
+      </h3>
+      <p>
+        I am Johnny
+      </p>
+    </div>
+    );
+  }
+}
 ```
